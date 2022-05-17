@@ -1,0 +1,27 @@
+/* - - - - - - - : Наш [svg] :- - - - - */
+
+.key-container {
+  text-align: center;
+}
+
+.key-box {
+  width: 57%;
+  text-align: left;
+  margin: 0 auto;
+  background: #2e2f3a;
+  padding: 0.5rem 0.5rem;
+  min-height: 3.8rem;
+  height: auto;
+}
+
+kbd.mi {
+  border: 1px solid #0f3338;
+  background-color: #23242e;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1.1rem;
+  margin: 0.15rem;
+  font-size: 1rem;
+  color: #8a8b8c;
+  display: inline-block;
+  user-select: none;
+}

@@ -1,0 +1,7 @@
+html {
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1e1f28;
+  font: 1rem Consolas;
+}

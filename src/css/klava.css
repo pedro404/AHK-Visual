@@ -1,0 +1,47 @@
+/* - - - - - -: [container > klava] :- - - - - */
+.klava {
+  margin: 0 auto;
+}
+
+/* - - - - - - - : Наш [svg] :- - - - - */
+.resize-x {
+  max-width: 1000px;
+  height: 322px;
+}
+
+.kbd-box {
+  fill: #23242e;
+  stroke: #083a3e;
+  stroke-width: 0.5;
+}
+
+/* -: Кнопки [svg] :- - - - - */
+.kbd-click,
+.group-button:hover > .kbd-box {
+  stroke: #00b2ff;
+  transition: all 0.5s ease;
+  /* stroke-width: 1; */
+  filter: blur(0.3px);
+}
+
+.klava {
+  text-align: center;
+}
+
+.key-click {
+  animation-name: example;
+  animation-duration: 500ms;
+}
+
+@keyframes example {
+  from {
+    fill: #23242e;
+  }
+  to {
+    fill: #292c47;
+    stroke: #00b2ff;
+    transition: all 0.5s ease;
+    /* stroke-width: 1; */
+    filter: blur(0.3px);
+  }
+}
